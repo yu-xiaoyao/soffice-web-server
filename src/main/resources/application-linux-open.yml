@@ -9,7 +9,8 @@ jodconverter:
     officeHome: /opt/openoffice4
     # portNumber 决定 同时可以有多少个进程在转,一个端口一个进程
     portNumbers: [ 8201,8202,8203,8204,8205,8206,8207,8208,8209,8210,8211 ]
-    # 处理一个文件超时时间  /ms
     processTimeout: 300000
+    # 处理一个文件超时时间  /ms
+    taskExecutionTimeout: 300000
     # 每个进程最大的排队数量
     maxTasksPerProcess: 100
